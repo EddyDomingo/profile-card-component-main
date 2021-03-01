@@ -1,0 +1,85 @@
+:root{
+
+/* Primary Colors*/
+--darkcyan: hsl(185, 75%, 39%);
+--desaturatedblue: hsl(229, 23%, 23%);
+--darkgrayishblue: hsl(227, 10%, 46%);
+
+/* Neutral */
+--darkgray:hsl(0, 0%, 59%);
+
+}
+
+body{
+    font-size: 18px;
+    font-family: Kumbh Sans;
+    font-weight: 400, 700;
+    background-color: var(--darkcyan);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: left top,left bottom;
+    background-repeat: no-repeat, no-repeat;
+    padding: 30px;
+}
+
+
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+
+/* card style*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 349px;
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+    background-color: floralwhite;
+    border-radius: 25px;
+  }
+
+/* Image */
+
+.profileImg{
+    border-radius: 50%;
+    top:0px;
+    width: 75px;
+    z-index: 2;
+    
+}
+
+.cardBackDrop{
+    z-index: -1;
+    position: center;
+    border-radius: 25px 25px 0px 0px;
+    
+}
+
+hr{
+    width: auto;
+    text-align: center;
+    color: var(--darkgrayishblue)
+    
+}
+
+.cardNumbers{
+    padding: 25px;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+}
+
+.cardWords{
+    font-size:12px !important;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding: 25px;
+    color: var(--darkgrayishblue)
+    
+}
+
+.sideByside{
+    display: inline-block;
+}
